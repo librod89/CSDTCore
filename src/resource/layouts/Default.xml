@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Default.xml
+    Created on : June 25, 2009, 3:08 PM
+    Author     : Jason
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+    <If SRC="/imgs/IfOne.bmp">
+        <Operand x="34" y="71" cx="107" cy="40"/>
+        <IfTrue x="195" y="71" cx="107" cy="40"/>
+        <IfFalse x="356" y="71" cx="107" cy="40"/>
+    </If>
+
+    <Binary SRC="/imgs/Binary.bmp">
+        <Lhs x="36" y="73" cx="105" cy="38"/>
+        <Op x="197" y="73" cx="105" cy="38"/>
+        <Rhs x="358" y="73" cx="105" cy="38"/>
+        <VSplit n="90"/>
+        <VSplit n="250"/>
+        <VSplit n="405"/>
+        <HSplit n="90"/>
+    </Binary>
+
+    <List SRC="/imgs/Binary.bmp">
+        <Col x="36" y="73" cx="105" cy="38"/>
+        <VSplit n="405"/>
+        <HSplit n="90"/>
+    </List>
+
+    <Unary>
+        <Op/>
+        <Val/>
+    </Unary>
+</root>
